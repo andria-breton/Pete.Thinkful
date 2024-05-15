@@ -1,0 +1,111 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+body {
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+  margin: 0;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Source Sans Pro", Times, serif;
+  font-size: 60px;
+  color: #d62828;
+}
+h2 {
+  font-family: "Source Sans Pro", Times, serif;
+  font-size: 40px;
+  color: #d62828;
+}
+h3 {
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+  font-size: 30px;
+  color: #d62828;
+}
+
+h1 {
+  font-family: "Source Sans Pro", Times, serif;
+  font-size: 60px;
+  color: #d62828;
+  text-align: center;
+  font-size: 2em;
+}
+
+h2 {
+  font-family: "Source Sans Pro", Times, serif;
+  font-size: 40px;
+  color: #d62828;
+  text-align: center;
+  font-size: 1.5em;
+  
+}
+h3 {
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+  font-size: 30px;
+  color: #d62828;
+  font-size: 1.5em;
+}
+
+article {
+  padding: 50px;
+  margin: 50px;
+  padding: 50px 0;
+}
+
+article div {
+  text-align: center;
+  width: 100%;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5em;
+  line-height: 1.5;
+}
+
+div {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  width: 600px;
+}
+
+img {
+  width: 100%;
+  max-width: 200px
+  height: auto;
+}
+
+/* The div container constrains the content width within the main container to 600px */
+div {
+  margin: auto;
+  width: 600px;
+}
+
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+/* Add your solution below */
+
+.image-circle {
+border-radius: 50%;
+border: 2px solid#003049
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
